@@ -1,2 +1,8 @@
 # SegModelOpt
-This repo explores training and optimizing models like U-Net for medical image segmentation. It includes quantization, pruning, and efficiency techniques to reduce model size while maintaining performance. Future updates will expand to other architectures and advanced compression methods.
+## Overview
+
+This repository demonstrates training, optimizing, and compressing deep learning models for medical image segmentation. It currently focuses on U-Net, but will expand to other architectures in the future. The optimization techniques explored include:
+	•	Quantization (Post-Training Quantization, Quantization-Aware Training)
+	•	Pruning (Weight Pruning, Structured & Unstructured Pruning)
+	•	Model Distillation (planned future work)
+	•	Other Efficiency Techniques (TensorRT, ONNX optimization)
